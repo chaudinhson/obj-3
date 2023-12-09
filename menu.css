@@ -1,0 +1,43 @@
+body {
+  background-image: url("./img/Screenshot\ 2023-11-30\ 144838.png");
+  width: 100vh;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#home,
+#contact,
+#hobbies,
+#planet {
+  width: 60px;
+  height: 20px;
+  background-color: wheat;
+  border-radius: 5px;
+  border: none;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#home:hover {
+  color: royalblue;
+  font-size: 15px;
+  cursor: pointer;
+}
+#hobbies:hover {
+  color: royalblue;
+  font-size: 15px;
+  cursor: pointer;
+}
+#contact:hover {
+  color: royalblue;
+  font-size: 15px;
+  cursor: pointer;
+}
+#planet:hover {
+  color: royalblue;
+  font-size: 15px;
+  cursor: pointer;
+}
