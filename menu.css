@@ -12,32 +12,35 @@ body {
 #contact,
 #hobbies,
 #planet {
-  width: 60px;
-  height: 20px;
+  width: 120px;
+  height: 30px;
   background-color: wheat;
-  border-radius: 5px;
+  border-radius: 40px;
+  text-align: center;
   border: none;
   margin: auto;
   margin-top: 10px;
   margin-bottom: 10px;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 #home:hover {
   color: royalblue;
-  font-size: 15px;
+  font-size: 20px;
   cursor: pointer;
 }
 #hobbies:hover {
   color: royalblue;
-  font-size: 15px;
+  font-size: 20px;
   cursor: pointer;
 }
 #contact:hover {
   color: royalblue;
-  font-size: 15px;
+  font-size: 20px;
   cursor: pointer;
 }
 #planet:hover {
   color: royalblue;
-  font-size: 15px;
+  font-size: 20px;
   cursor: pointer;
 }
